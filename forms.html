@@ -19,15 +19,28 @@
     </style>
 </head>
 <body>
-    <form action="" method="" autocomplete="on">
-       <div> <label for="name">Name:</label><br>
-        <input type="text" name="" id="name" required placeholder="E.g John"><br>
-        <label for="dateofbirth">Date of Birth</label><br>
-        <input type="date" name="dateofbirth" id="dateofbirth"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" ><br>
-        <input type="submit"></div>
-    </form>
+    
+        <form action="" method="" autocomplete="on">
+           <fieldset>
+            <div> <label for="name">Name:</label><br>
+                <input type="text" name="" id="name" required placeholder="E.g John"  value="john" ><br>
+                <label for="dateofbirth">Date of Birth</label><br>
+                <input type="date" name="dateofbirth" id="dateofbirth"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" ><br>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                   <option value=""></option>
+                   <option value="male">Male</option>
+                   <option value="female">female</option>
+
+                </select><br>
+                <label for="about">about yourself</label>
+                <textarea name="about" id="about" style="height: 100px; width: 300px;"></textarea>
+                <input type="submit"></div>
+           </fieldset>
+         </form>
+    
         
 </body>
 </html>

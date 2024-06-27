@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>courier form</title>
+    <link rel="icon" type="images/x-icon" href="download.jpeg">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ),
+          url(background.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid #009688;
+        border-radius: 10px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .form-group input,
+      .form-group textarea,
+      .form-group select {
+        background-color: transparent;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="form-group" id="myform">
+        <label for="name">Name</label><br />
+        <input type="text" name="customer_name" id="name" required /><br />
+        <label for="name">Email</label><br />
+        <input type="email" name="customer_email" id="email" required /><br />
+        <label for="name">Feedback</label><br />
+        <textarea name="customer_feedback" id="feedback"></textarea><br />
+        <label for="ratings">Rate our service</label><br />
+        <select name="ratings" id="ratings">
+          <option value="">Ratings</option>
+          <option value="5">⭐⭐⭐⭐⭐</option>
+          <option value="4">⭐⭐⭐⭐</option>
+          <option value="3">⭐⭐⭐</option>
+          <option value="2">⭐⭐</option>
+          <option value="1">⭐</option>
+        </select>
+        <br />
+        <input type="submit" />
+      </div>
+    </form>
+  </body>
+</html>
