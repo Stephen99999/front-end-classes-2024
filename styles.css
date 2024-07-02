@@ -11,3 +11,73 @@
   font-size: 26x;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
+#horbar{
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  
+}
+
+#horbar a{
+  margin: 0 20px;
+  position: relative;
+  color: #0f0e0e;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+#navbar {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  text-align: left;
+  
+}
+
+#navbar li a{
+  
+  display: block;
+  color: orange;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+#navbar li a:hover{
+  background-color: rgb(105, 161, 211);
+  color: black;
+ 
+}
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+/* li a:hover {
+  background-color: #555;
+  color: white;
+}  */
