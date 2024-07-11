@@ -20,7 +20,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9999;
+  
+  
   
 }
 
@@ -29,8 +30,22 @@
   position: relative;
   color: #0f0e0e;
   text-transform: uppercase;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+ 
 
+}
+#horbar a:link{
+  color: blue;
+}
+#horbar a:visited{
+  color:black;
+}
+#horbar a:hover{
+  color: #dd1b1b;
+  text-decoration:underline;
+  
+}
+#horbar a:active{
+  color: green;
 }
 
 #navbar {
@@ -60,6 +75,18 @@
   background-color: rgb(105, 161, 211);
   color: black;
  
+}
+/*footer styling*/
+.contact-info{
+  display: grid;
+  grid-template-columns: 45% 25% 30%;
+}
+footer{
+  margin-left: 15%;
+  background-color: #222222;
+  padding: 20px;
+  text-align: left;
+  color: white;
 }
 /* ul {
   list-style-type: none;
