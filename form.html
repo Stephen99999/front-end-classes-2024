@@ -6,20 +6,48 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="">
-        <label for="studentname">Student Name</label>
-        <input type="text" required> <br>
-        <label for="age">Age</label>
-        <select name="age" id="">
-            <option value="">16-18</option>
-            <option value="">18-20</option>
-        </select> <br>
-        <label for="state">State of origin</label>
-        <input type="checkbox" id="state1" value="Lagos">Lagos 
-        <input type="checkbox" id="state2" value="Delta">Delta <br>
-        <label for="utme">Jamb Score</label>
-        <input type="text" required> <br>
-        <button type="submit">submit form</button>
-    </form>
+    <fieldset>
+        <legend>Employee details</legend>
+        <form action="">
+            <label for="search">Search:</label>
+            <input type="search">
+            <label for="fname">Firt name:</label>
+            <input type="text" required name="fname"> <br>
+            <label for="lname">Last name:</label>
+            <input type="text" required name="lname"> <br>
+            <label for="DOB">Dat of Birth:</label>
+            <input type="date" required> <br>
+            <label for="gender">Gender:</label> <br>
+            <input type="radio" name="gender" value="male">Male 
+            <input type="radio" name="gender" value="female">Female <br>
+            <label for="ID">Employee ID:</label>
+            <input type="text" required name="ID"> <br>
+            <label for="designation">Designation:</label>
+            <input type="text" required name="designation"> <br>
+            <label for="phone no">Phone number:</label>
+            <input type="text" required name="phone"> <br>
+            <label for="phone no">Age:</label>
+            <input type="number" required name="phone"> <br>
+            <label for="color">fav color:</label>
+            <input type="color" name="color">
+            <br>
+            <button type="submit">submit</button> 
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Login form</legend>
+        <form action="" method="post">
+            <label for="username">Username:</label>
+            <input type="text"> <br>
+            <label for="password">Password:</label>
+            <input type="password"> <br>
+            <button type="submit">login</button>
+        </form>
+    </fieldset>
+    <!-- to put audio -->
+    <audio src="utomp3.com - NEMZZZ  ESCAPE OFFICIAL VIDEO.mp3" controls type="audio/mp3"></audio>
+    <video src="utomp3.com - NEMZZZ  ESCAPE OFFICIAL VIDEO_v720P.mp4" controls type="video/mp4"></video>
+    
 </body>
 </html>
