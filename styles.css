@@ -128,3 +128,23 @@ li a {
   text-decoration: none;
   color: white;
 }
+#navbar {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(139, 21, 21, 0.199);
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  text-align: left;
+  
+}
+
+ul li a{
+  display: block;
+  color: aqua;
+  padding: 8px 20px;
+  text-decoration: none;
+}
