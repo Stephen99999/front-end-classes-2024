@@ -1,7 +1,7 @@
-#text1{
+/* #text1{
   color: cadetblue;
-  font-family: 'Courier New', Courier, monospace;/*font type*/
-  font-weight: 650;/*specifies the thickness of the text*/
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 650;
   font-size: 1.5em;
   text-shadow: 2px 2px rgb(43, 43, 37);
 }
@@ -76,7 +76,7 @@
   color: black;
  
 }
-/*footer styling*/
+
 .contact-info{
   display: grid;
   grid-template-columns: 45% 25% 30%;
@@ -87,7 +87,7 @@ footer{
   padding: 20px;
   text-align: left;
   color: white;
-}
+} */
 /* ul {
   list-style-type: none;
   margin: 0;
@@ -108,3 +108,23 @@ li a {
   background-color: #555;
   color: white;
 }  */
+
+#horbar{
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  background-color: black;
+}
+
+#horbar a{
+  margin: 20px;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}

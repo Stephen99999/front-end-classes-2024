@@ -58,10 +58,47 @@ add = (a,b) => {
 
 
  
-let student = ["dubem",17,1.90]
-student.push("male")
+// let student = ["dubem",17,1.90]
+// student.push("male")
 
-alert(student)
+// alert(student)
 
-let array = new array()
-Array.isArray(student);
+// let array = new array()
+// Array.isArray(student);
+
+// const car = {
+//   brand: "Toyota",
+//   year: 2008,
+//   price: "20milliion"
+// };
+
+// console.log(car)
+
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+console.log(person)
+const person2 = new Object()
+
+function myFunction(item, index, arr) {
+  arr[index] = item * 10;
+}
+
+array = []
+for (let index = 0; index < 101; index++) {
+  array[index]= index+1;
+  
+}
+array.forEach(myFunction)
+console.log(array)
+
+for (firstName in person){
+  console.log("hello ".concat(person.firstName))
+}
+let i = 0;
+ while (i<1){
+  alert("hello")
+  i++;
+ };// pretest loop
+  do {
+    
+  } while (condition); //post test loop
